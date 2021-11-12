@@ -9,117 +9,114 @@ using Microsoft.EntityFrameworkCore;
 
 namespace CustomerTestAPI.Api.Controllers
 {
-    public class CustomerController : ControllerBase
+    [Route("api/[controller]")]
+    [ApiController]
+    public class CustomersController : ControllerBase
     {
-        [Route("api/[controller]")]
-        [ApiController]
-        public class CustomersController : ControllerBase
+        private readonly CustomerContext _context;
+
+        public CustomersController(CustomerContext context)
         {
-            private readonly CustomerContext _context;
+            _context = context;
+        }
 
-            public CustomersController(CustomerContext context)
+        // GET: api/Customers
+        [HttpGet]
+        public async Task<ActionResult<IEnumerable<Customer>>> GetCustomers()
+        {
+            return await _context.Customers.Include(c => c.Address).Include(c => c.Coord).ToListAsync();
+        }
+
+        // GET: api/Customers/5
+        [HttpGet("{id}")]
+        public async Task<ActionResult<Customer>> GetCustomer(int id)
+        {
+            var Customer = await _context.Customers.FindAsync(id);
+
+            if (Customer == null)
             {
-                _context = context;
+                return NotFound();
             }
 
-            // GET: api/Customers
-            [HttpGet]
-            public async Task<ActionResult<IEnumerable<Customer>>> GetCustomers()
+            return Customer;
+        }
+
+        // GET: api/Customers/5
+        [HttpGet("phone/{phone}")]
+        public async Task<ActionResult<Customer>> GetCustomerByPhone(string phone)
+        {
+            var Customer = await _context.Customers.Where(c => c.Phone == phone).ToListAsync();
+
+            if (Customer == null)
             {
-                return await _context.Customers.ToListAsync();
+                return NotFound();
             }
 
-            // GET: api/Customers/5
-            [HttpGet("{id}")]
-            public async Task<ActionResult<Customer>> GetCustomer(int id)
+            return Customer.FirstOrDefault();
+        }
+
+
+        // PUT: api/Customers/5
+        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
+        [HttpPut("{id}")]
+        public async Task<IActionResult> PutCustomer(int id, Customer Customer)
+        {
+            if (id != Customer.Customer_ID)
             {
-                var Customer = await _context.Customers.FindAsync(id);
-
-                if (Customer == null)
-                {
-                    return NotFound();
-                }
-
-                return Customer;
+                return BadRequest();
             }
 
-            // GET: api/Customers/5
-            [HttpGet("phone/{id}")]
-            public async Task<ActionResult<Customer>> GetCustomerByPhone(string phone)
+            _context.Entry(Customer).State = EntityState.Modified;
+
+            try
             {
-                var Customer = await _context.Customers.Where(c => c.Phone == phone).ToListAsync();
-
-                if (Customer == null)
-                {
-                    return NotFound();
-                }
-
-                return Customer.FirstOrDefault();
-            }
-
-
-            // PUT: api/Customers/5
-            // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
-            [HttpPut("{id}")]
-            public async Task<IActionResult> PutCustomer(int id, Customer Customer)
-            {
-                if (id != Customer.Customer_ID)
-                {
-                    return BadRequest();
-                }
-
-                _context.Entry(Customer).State = EntityState.Modified;
-
-                try
-                {
-                    await _context.SaveChangesAsync();
-                }
-                catch (DbUpdateConcurrencyException)
-                {
-                    if (!CustomerExists(id))
-                    {
-                        return NotFound();
-                    }
-                    else
-                    {
-                        throw;
-                    }
-                }
-
-                return NoContent();
-            }
-
-            // POST: api/Customers
-            // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
-            [HttpPost]
-            public async Task<ActionResult<Customer>> PostCustomer(Customer Customer)
-            {
-                _context.Customers.Add(Customer);
                 await _context.SaveChangesAsync();
-
-                return CreatedAtAction("GetCustomer", new { id = Customer.Customer_ID }, Customer);
             }
-
-            // DELETE: api/Customers/5
-            [HttpDelete("{id}")]
-            public async Task<IActionResult> DeleteCustomer(int id)
+            catch (DbUpdateConcurrencyException)
             {
-                var Customer = await _context.Customers.FindAsync(id);
-                if (Customer == null)
+                if (!CustomerExists(id))
                 {
                     return NotFound();
                 }
-
-                _context.Customers.Remove(Customer);
-                await _context.SaveChangesAsync();
-
-                return NoContent();
+                else
+                {
+                    throw;
+                }
             }
 
-            private bool CustomerExists(int id)
+            return NoContent();
+        }
+
+        // POST: api/Customers
+        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
+        [HttpPost]
+        public async Task<ActionResult<Customer>> PostCustomer(Customer Customer)
+        {
+            _context.Customers.Add(Customer);
+            await _context.SaveChangesAsync();
+
+            return CreatedAtAction("GetCustomer", new { id = Customer.Customer_ID }, Customer);
+        }
+
+        // DELETE: api/Customers/5
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeleteCustomer(int id)
+        {
+            var Customer = await _context.Customers.FindAsync(id);
+            if (Customer == null)
             {
-                return _context.Customers.Any(e => e.Customer_ID == id);
+                return NotFound();
             }
+
+            _context.Customers.Remove(Customer);
+            await _context.SaveChangesAsync();
+
+            return NoContent();
+        }
+
+        private bool CustomerExists(int id)
+        {
+            return _context.Customers.Any(e => e.Customer_ID == id);
         }
     }
 }
