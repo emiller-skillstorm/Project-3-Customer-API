@@ -1,0 +1,34 @@
+﻿<Properties StartupConfiguration="{48492C71-61E2-4310-9B16-78FCE0F00B32}|Default">
+  <MonoDevelop.Ide.ItemProperties.CustomerTestAPI.Api PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="appsettings.json">
+    <Files>
+      <File FileName="CustomerTestAPI.Data/Program.cs" Line="1" Column="1" />
+      <File FileName="CustomerTestAPI.Domain/Customer.cs" Line="11" Column="47" />
+      <File FileName="CustomerTestAPI.Domain/Address.cs" Line="5" Column="6" />
+      <File FileName="CustomerTestAPI.Domain/Coordinates.cs" Line="7" Column="39" />
+      <File FileName="CustomerTestAPI.Data/CustomerContext.cs" Line="16" Column="27" />
+      <File FileName="Program.cs" Line="24" Column="20" />
+      <File FileName="Startup.cs" Line="44" Column="26" />
+      <File FileName="appsettings.json" Line="9" Column="25" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="CustomerTestAPI.Api" expanded="True">
+            <Node name="CustomerTestAPI.Api" expanded="True">
+              <Node name="appsettings.json" selected="True" />
+            </Node>
+            <Node name="CustomerTestAPI.Data" expanded="True" />
+            <Node name="CustomerTestAPI.Domain" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
