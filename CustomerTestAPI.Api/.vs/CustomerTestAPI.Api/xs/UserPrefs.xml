@@ -1,37 +1,38 @@
 ﻿<Properties StartupConfiguration="{48492C71-61E2-4310-9B16-78FCE0F00B32}|Default">
   <MonoDevelop.Ide.ItemProperties.CustomerTestAPI.Api PreferredExecutionTarget="/Applications/Safari.app" />
   <MonoDevelop.Ide.ItemProperties.CustomerTestAPI.Data PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="CustomerTestAPI.Data/Migrations/20211112211622_ThirdTry.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="appsettings.Development.json">
     <Files>
       <File FileName="CustomerTestAPI.Data/Program.cs" Line="7" Column="6" />
       <File FileName="CustomerTestAPI.Domain/Customer.cs" Line="16" Column="2" />
       <File FileName="CustomerTestAPI.Domain/Address.cs" Line="18" Column="1" />
       <File FileName="CustomerTestAPI.Domain/Coordinates.cs" Line="8" Column="13" />
-      <File FileName="CustomerTestAPI.Data/CustomerContext.cs" Line="14" Column="34" />
+      <File FileName="CustomerTestAPI.Data/CustomerContext.cs" Line="12" Column="77" />
       <File FileName="Program.cs" Line="24" Column="20" />
-      <File FileName="Startup.cs" Line="45" Column="71" />
+      <File FileName="Startup.cs" Line="35" Column="29" />
       <File FileName="appsettings.json" Line="8" Column="5" />
-      <File FileName="Properties/launchSettings.json" Line="32" Column="1" />
-      <File FileName="Controllers/WeatherForecastController.cs" Line="39" Column="2" />
-      <File FileName="Controllers/CustomersController.cs" Line="44" Column="14" />
+      <File FileName="Properties/launchSettings.json" Line="21" Column="32" />
+      <File FileName="Controllers/WeatherForecastController.cs" Line="11" Column="17" />
+      <File FileName="Controllers/CustomersController.cs" Line="41" Column="29" />
       <File FileName="CustomerTestAPI.Data/Migrations/20211112205006_InitialMigration.cs" Line="1" Column="1" />
       <File FileName="CustomerTestAPI.Data/Migrations/20211112205006_InitialMigration.Designer.cs" Line="1" Column="1" />
       <File FileName="CustomerTestAPI.Data/Migrations/CustomerContextModelSnapshot.cs" Line="1" Column="1" />
       <File FileName="CustomerTestAPI.Data/Migrations/20211112205717_SecondTry.cs" Line="1" Column="1" />
       <File FileName="CustomerTestAPI.Data/Migrations/20211112205717_SecondTry.Designer.cs" Line="1" Column="1" />
       <File FileName="CustomerTestAPI.Data/Migrations/20211112211622_ThirdTry.cs" Line="1" Column="1" />
+      <File FileName="WeatherForecast.cs" Line="1" Column="1" />
+      <File FileName="appsettings.Development.json" Line="8" Column="4" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="CustomerTestAPI.Api" expanded="True">
             <Node name="CustomerTestAPI.Api" expanded="True">
-              <Node name="CustomerTestAPI.Data" expanded="True">
-                <Node name="Migrations" expanded="True">
-                  <Node name="20211112211622_ThirdTry.cs" selected="True" />
-                </Node>
+              <Node name="Controllers" expanded="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="appsettings.json" expanded="True">
+                <Node name="appsettings.Development.json" selected="True" />
               </Node>
-              <Node name="appsettings.json" expanded="True" />
             </Node>
             <Node name="CustomerTestAPI.Data" expanded="True" />
             <Node name="CustomerTestAPI.Domain" expanded="True" />
