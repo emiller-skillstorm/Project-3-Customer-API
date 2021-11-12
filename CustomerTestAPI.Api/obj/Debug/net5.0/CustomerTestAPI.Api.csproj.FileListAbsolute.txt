@@ -139,3 +139,8 @@
 /Users/ericmiller/Projects/SkillStorm/Project 3/Project-3-Customer-API/CustomerTestAPI.Api/obj/Debug/net5.0/ref/CustomerTestAPI.Api.dll
 /Users/ericmiller/Projects/SkillStorm/Project 3/Project-3-Customer-API/CustomerTestAPI.Api/obj/Debug/net5.0/CustomerTestAPI.Api.pdb
 /Users/ericmiller/Projects/SkillStorm/Project 3/Project-3-Customer-API/CustomerTestAPI.Api/obj/Debug/net5.0/CustomerTestAPI.Api.genruntimeconfig.cache
+/Users/ericmiller/Projects/SkillStorm/Project 3/Project-3-Customer-API/CustomerTestAPI.Api/bin/Debug/net5.0/System.Web.Cors.dll
+/Users/ericmiller/Projects/SkillStorm/Project 3/Project-3-Customer-API/CustomerTestAPI.Api/bin/Debug/net5.0/System.Net.Http.Formatting.dll
+/Users/ericmiller/Projects/SkillStorm/Project 3/Project-3-Customer-API/CustomerTestAPI.Api/bin/Debug/net5.0/System.Web.Http.dll
+/Users/ericmiller/Projects/SkillStorm/Project 3/Project-3-Customer-API/CustomerTestAPI.Api/bin/Debug/net5.0/System.Web.Http.Cors.dll
+/Users/ericmiller/Projects/SkillStorm/Project 3/Project-3-Customer-API/CustomerTestAPI.Api/bin/Debug/net5.0/Newtonsoft.Json.Bson.dll
