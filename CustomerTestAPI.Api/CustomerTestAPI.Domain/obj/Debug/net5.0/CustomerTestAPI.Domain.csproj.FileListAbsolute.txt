@@ -1,4 +1,6 @@
 /Users/ericmiller/Projects/SkillStorm/Project 3/Project-3-Customer-API/CustomerTestAPI.Api/CustomerTestAPI.Domain/bin/Debug/net5.0/CustomerTestAPI.Domain.deps.json
+/Users/ericmiller/Projects/SkillStorm/Project 3/Project-3-Customer-API/CustomerTestAPI.Api/CustomerTestAPI.Domain/bin/Debug/net5.0/CustomerTestAPI.Domain.runtimeconfig.json
+/Users/ericmiller/Projects/SkillStorm/Project 3/Project-3-Customer-API/CustomerTestAPI.Api/CustomerTestAPI.Domain/bin/Debug/net5.0/CustomerTestAPI.Domain.runtimeconfig.dev.json
 /Users/ericmiller/Projects/SkillStorm/Project 3/Project-3-Customer-API/CustomerTestAPI.Api/CustomerTestAPI.Domain/bin/Debug/net5.0/CustomerTestAPI.Domain.dll
 /Users/ericmiller/Projects/SkillStorm/Project 3/Project-3-Customer-API/CustomerTestAPI.Api/CustomerTestAPI.Domain/bin/Debug/net5.0/ref/CustomerTestAPI.Domain.dll
 /Users/ericmiller/Projects/SkillStorm/Project 3/Project-3-Customer-API/CustomerTestAPI.Api/CustomerTestAPI.Domain/bin/Debug/net5.0/CustomerTestAPI.Domain.pdb
@@ -10,3 +12,4 @@
 /Users/ericmiller/Projects/SkillStorm/Project 3/Project-3-Customer-API/CustomerTestAPI.Api/CustomerTestAPI.Domain/obj/Debug/net5.0/CustomerTestAPI.Domain.dll
 /Users/ericmiller/Projects/SkillStorm/Project 3/Project-3-Customer-API/CustomerTestAPI.Api/CustomerTestAPI.Domain/obj/Debug/net5.0/ref/CustomerTestAPI.Domain.dll
 /Users/ericmiller/Projects/SkillStorm/Project 3/Project-3-Customer-API/CustomerTestAPI.Api/CustomerTestAPI.Domain/obj/Debug/net5.0/CustomerTestAPI.Domain.pdb
+/Users/ericmiller/Projects/SkillStorm/Project 3/Project-3-Customer-API/CustomerTestAPI.Api/CustomerTestAPI.Domain/obj/Debug/net5.0/CustomerTestAPI.Domain.genruntimeconfig.cache

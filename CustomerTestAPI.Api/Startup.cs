@@ -38,13 +38,10 @@ namespace CustomerTestAPI.Api
 
             services.AddControllers();
 
-            string connStr = Configuration.GetConnectionString("ConnStr");
-
             services.AddDbContext<CustomerContext>(opt =>
-            opt.UseSqlServer(connStr)
-            .LogTo(Console.WriteLine, new[] { DbLoggerCategory.Database.Command.Name }, LogLevel.Information)
-            .EnableSensitiveDataLogging()
-            .UseQueryTrackingBehavior(QueryTrackingBehavior.NoTracking));
+                opt.UseSqlServer(Configuration.GetConnectionString("ConnStr"))
+                   .EnableSensitiveDataLogging()
+                   .UseQueryTrackingBehavior(QueryTrackingBehavior.NoTracking));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
