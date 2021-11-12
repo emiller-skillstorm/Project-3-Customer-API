@@ -4,7 +4,6 @@
 /Users/ericmiller/Projects/SkillStorm/Project 3/Project-3-Customer-API/CustomerTestAPI.Api/CustomerTestAPI.Domain/bin/Debug/net5.0/CustomerTestAPI.Domain.dll
 /Users/ericmiller/Projects/SkillStorm/Project 3/Project-3-Customer-API/CustomerTestAPI.Api/CustomerTestAPI.Domain/bin/Debug/net5.0/ref/CustomerTestAPI.Domain.dll
 /Users/ericmiller/Projects/SkillStorm/Project 3/Project-3-Customer-API/CustomerTestAPI.Api/CustomerTestAPI.Domain/bin/Debug/net5.0/CustomerTestAPI.Domain.pdb
-/Users/ericmiller/Projects/SkillStorm/Project 3/Project-3-Customer-API/CustomerTestAPI.Api/CustomerTestAPI.Domain/obj/Debug/net5.0/CustomerTestAPI.Domain.csproj.AssemblyReference.cache
 /Users/ericmiller/Projects/SkillStorm/Project 3/Project-3-Customer-API/CustomerTestAPI.Api/CustomerTestAPI.Domain/obj/Debug/net5.0/CustomerTestAPI.Domain.GeneratedMSBuildEditorConfig.editorconfig
 /Users/ericmiller/Projects/SkillStorm/Project 3/Project-3-Customer-API/CustomerTestAPI.Api/CustomerTestAPI.Domain/obj/Debug/net5.0/CustomerTestAPI.Domain.AssemblyInfoInputs.cache
 /Users/ericmiller/Projects/SkillStorm/Project 3/Project-3-Customer-API/CustomerTestAPI.Api/CustomerTestAPI.Domain/obj/Debug/net5.0/CustomerTestAPI.Domain.AssemblyInfo.cs

@@ -39,7 +39,10 @@ namespace CustomerTestAPI.Api
             services.AddControllers();
 
             services.AddDbContext<CustomerContext>(opt =>
-                opt.UseSqlServer(Configuration.GetConnectionString("ConnStr"))
+                opt.UseSqlServer(@"Server = localhost, 1433;
+                                            Database = customer-api-test;
+                                            User Id = sa;
+                                            Password = Strong.Pwd-123")
                    .EnableSensitiveDataLogging()
                    .UseQueryTrackingBehavior(QueryTrackingBehavior.NoTracking));
         }

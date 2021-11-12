@@ -1,4 +1,5 @@
 ﻿using System;
+using CustomerTestAPI.Domain;
 
 namespace CustomerTestAPI.Data
 {
@@ -6,7 +7,7 @@ namespace CustomerTestAPI.Data
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Hello");
         }
     }
 }

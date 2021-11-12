@@ -11,6 +11,8 @@ namespace CustomerTestAPI.Data
 
         public CustomerContext(DbContextOptions options) : base(options) { }
 
+        public CustomerContext() { }
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             // Placeholder
