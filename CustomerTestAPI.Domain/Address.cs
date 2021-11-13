@@ -17,6 +17,6 @@ namespace CustomerTestAPI.Domain
         public string State { get; set; }
         public string Zip { get; set; }
         public string DeliveryInstructions { get; set; }
-        public virtual Coordinates Coord { get; set; }
+        public Coordinates Coord { get; set; }
     }
 }

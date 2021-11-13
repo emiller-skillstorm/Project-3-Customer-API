@@ -42,6 +42,7 @@ namespace CustomerTestAPI.Api
                 opt.UseSqlServer(Configuration.GetConnectionString("ConnStr"))
                    .EnableSensitiveDataLogging()
                    .UseQueryTrackingBehavior(QueryTrackingBehavior.NoTracking));
+            
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -55,7 +56,7 @@ namespace CustomerTestAPI.Api
             app.UseRouting();
             app.UseCors();
             app.UseAuthorization();
-
+          
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();

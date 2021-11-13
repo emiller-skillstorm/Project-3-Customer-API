@@ -24,7 +24,7 @@ namespace CustomerTestAPI.Api.Controllers
             [HttpGet]
             public async Task<ActionResult<IEnumerable<Customer>>> GetCustomers()
             {
-                return await _context.Customers.ToListAsync();
+                return await _context.Customers.Include(c => c.Address).ThenInclude(a => a.Coord).ToListAsync();
             }
 
             // GET: api/Customers/5
@@ -45,13 +45,14 @@ namespace CustomerTestAPI.Api.Controllers
             [HttpGet("phone/{phone}")]
             public async Task<ActionResult<Customer>> GetCustomerByPhone(string phone)
             {
-                var Customer = await _context.Customers.Where(c => c.Phone == phone).Include(c => c.Address).ToListAsync();
-
+            
+                var Customer = await _context.Customers.Where(c => c.Phone == phone).Include(c => c.Address).ThenInclude(a => a.Coord).ToListAsync();
+                Console.WriteLine("Hello");
                 if (Customer == null)
                 {
                     return NotFound();
                 }
-
+                
                 return Customer.FirstOrDefault();
             }
 
