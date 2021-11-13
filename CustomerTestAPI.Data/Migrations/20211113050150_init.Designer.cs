@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CustomerTestAPI.Data.Migrations
 {
     [DbContext(typeof(CustomerContext))]
-    [Migration("20211113043236_updatecustomers")]
-    partial class updatecustomers
+    [Migration("20211113050150_init")]
+    partial class init
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

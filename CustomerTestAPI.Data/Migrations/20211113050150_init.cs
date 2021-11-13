@@ -54,7 +54,8 @@ namespace CustomerTestAPI.Data.Migrations
                     Phone = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     FName = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     LName = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    AddressId = table.Column<int>(type: "int", nullable: true)
+                    AddressId = table.Column<int>(type: "int", nullable: true),
+                    Notes = table.Column<string>(type: "nvarchar(max)", nullable: true)
                 },
                 constraints: table =>
                 {
