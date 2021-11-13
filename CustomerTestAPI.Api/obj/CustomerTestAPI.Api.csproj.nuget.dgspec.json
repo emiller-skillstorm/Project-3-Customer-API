@@ -1,39 +1,42 @@
 {
   "format": 1,
   "restore": {
-    "/Users/ericmiller/Projects/SkillStorm/Project 3/Project-3-Customer-API/CustomerTestAPI.Api/CustomerTestAPI.Api.csproj": {}
+    "C:\\Users\\Wyatt\\Source\\Repos\\Project-3-Customer-API2\\CustomerTestAPI.Api\\CustomerTestAPI.Api.csproj": {}
   },
   "projects": {
-    "/Users/ericmiller/Projects/SkillStorm/Project 3/Project-3-Customer-API/CustomerTestAPI.Api/CustomerTestAPI.Api.csproj": {
+    "C:\\Users\\Wyatt\\Source\\Repos\\Project-3-Customer-API2\\CustomerTestAPI.Api\\CustomerTestAPI.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/ericmiller/Projects/SkillStorm/Project 3/Project-3-Customer-API/CustomerTestAPI.Api/CustomerTestAPI.Api.csproj",
+        "projectUniqueName": "C:\\Users\\Wyatt\\Source\\Repos\\Project-3-Customer-API2\\CustomerTestAPI.Api\\CustomerTestAPI.Api.csproj",
         "projectName": "CustomerTestAPI.Api",
-        "projectPath": "/Users/ericmiller/Projects/SkillStorm/Project 3/Project-3-Customer-API/CustomerTestAPI.Api/CustomerTestAPI.Api.csproj",
-        "packagesPath": "/Users/ericmiller/.nuget/packages/",
-        "outputPath": "/Users/ericmiller/Projects/SkillStorm/Project 3/Project-3-Customer-API/CustomerTestAPI.Api/obj/",
+        "projectPath": "C:\\Users\\Wyatt\\Source\\Repos\\Project-3-Customer-API2\\CustomerTestAPI.Api\\CustomerTestAPI.Api.csproj",
+        "packagesPath": "C:\\Users\\Wyatt\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Wyatt\\Source\\Repos\\Project-3-Customer-API2\\CustomerTestAPI.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "/Users/ericmiller/.config/NuGet/NuGet.Config"
+          "C:\\Users\\Wyatt\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "/Users/ericmiller/Projects/SkillStorm/Project 3/Project-3-Customer-API/CustomerTestAPI.Api/CustomerTestAPI.Data/CustomerTestAPI.Data.csproj": {
-                "projectPath": "/Users/ericmiller/Projects/SkillStorm/Project 3/Project-3-Customer-API/CustomerTestAPI.Api/CustomerTestAPI.Data/CustomerTestAPI.Data.csproj"
+              "C:\\Users\\Wyatt\\Source\\Repos\\Project-3-Customer-API2\\CustomerTestAPI.Data\\CustomerTestAPI.Data.csproj": {
+                "projectPath": "C:\\Users\\Wyatt\\Source\\Repos\\Project-3-Customer-API2\\CustomerTestAPI.Data\\CustomerTestAPI.Data.csproj"
               },
-              "/Users/ericmiller/Projects/SkillStorm/Project 3/Project-3-Customer-API/CustomerTestAPI.Api/CustomerTestAPI.Domain/CustomerTestAPI.Domain.csproj": {
-                "projectPath": "/Users/ericmiller/Projects/SkillStorm/Project 3/Project-3-Customer-API/CustomerTestAPI.Api/CustomerTestAPI.Domain/CustomerTestAPI.Domain.csproj"
+              "C:\\Users\\Wyatt\\Source\\Repos\\Project-3-Customer-API2\\CustomerTestAPI.Domain\\CustomerTestAPI.Domain.csproj": {
+                "projectPath": "C:\\Users\\Wyatt\\Source\\Repos\\Project-3-Customer-API2\\CustomerTestAPI.Domain\\CustomerTestAPI.Domain.csproj"
               }
             }
           }
@@ -48,33 +51,23 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
-            "Microsoft.EntityFrameworkCore.Analyzers": {
-              "target": "Package",
-              "version": "[5.0.10, )"
-            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[5.0.10, )"
-            },
-            "Microsoft.EntityFrameworkCore.Relational": {
-              "target": "Package",
-              "version": "[5.0.10, )"
+              "version": "[5.0.12, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[5.0.10, )"
+              "version": "[5.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.12, )"
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
-              "target": "Package",
-              "version": "[5.0.2, )"
-            },
-            "Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[5.0.2, )"
-            },
-            "Microsoft.VisualStudio.Web.CodeGeneration.Utils": {
               "target": "Package",
               "version": "[5.0.2, )"
             }
@@ -97,37 +90,40 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.403/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/ericmiller/Projects/SkillStorm/Project 3/Project-3-Customer-API/CustomerTestAPI.Api/CustomerTestAPI.Data/CustomerTestAPI.Data.csproj": {
+    "C:\\Users\\Wyatt\\Source\\Repos\\Project-3-Customer-API2\\CustomerTestAPI.Data\\CustomerTestAPI.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/ericmiller/Projects/SkillStorm/Project 3/Project-3-Customer-API/CustomerTestAPI.Api/CustomerTestAPI.Data/CustomerTestAPI.Data.csproj",
+        "projectUniqueName": "C:\\Users\\Wyatt\\Source\\Repos\\Project-3-Customer-API2\\CustomerTestAPI.Data\\CustomerTestAPI.Data.csproj",
         "projectName": "CustomerTestAPI.Data",
-        "projectPath": "/Users/ericmiller/Projects/SkillStorm/Project 3/Project-3-Customer-API/CustomerTestAPI.Api/CustomerTestAPI.Data/CustomerTestAPI.Data.csproj",
-        "packagesPath": "/Users/ericmiller/.nuget/packages/",
-        "outputPath": "/Users/ericmiller/Projects/SkillStorm/Project 3/Project-3-Customer-API/CustomerTestAPI.Api/CustomerTestAPI.Data/obj/",
+        "projectPath": "C:\\Users\\Wyatt\\Source\\Repos\\Project-3-Customer-API2\\CustomerTestAPI.Data\\CustomerTestAPI.Data.csproj",
+        "packagesPath": "C:\\Users\\Wyatt\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Wyatt\\Source\\Repos\\Project-3-Customer-API2\\CustomerTestAPI.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "/Users/ericmiller/.config/NuGet/NuGet.Config"
+          "C:\\Users\\Wyatt\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "/Users/ericmiller/Projects/SkillStorm/Project 3/Project-3-Customer-API/CustomerTestAPI.Api/CustomerTestAPI.Domain/CustomerTestAPI.Domain.csproj": {
-                "projectPath": "/Users/ericmiller/Projects/SkillStorm/Project 3/Project-3-Customer-API/CustomerTestAPI.Api/CustomerTestAPI.Domain/CustomerTestAPI.Domain.csproj"
+              "C:\\Users\\Wyatt\\Source\\Repos\\Project-3-Customer-API2\\CustomerTestAPI.Domain\\CustomerTestAPI.Domain.csproj": {
+                "projectPath": "C:\\Users\\Wyatt\\Source\\Repos\\Project-3-Customer-API2\\CustomerTestAPI.Domain\\CustomerTestAPI.Domain.csproj"
               }
             }
           }
@@ -144,21 +140,15 @@
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[5.0.10, )"
-            },
-            "Microsoft.EntityFrameworkCore.Design": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[5.0.10, )"
+              "version": "[5.0.12, )"
             },
             "Microsoft.EntityFrameworkCore.Relational": {
               "target": "Package",
-              "version": "[5.0.10, )"
+              "version": "[5.0.12, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[5.0.10, )"
+              "version": "[5.0.12, )"
             }
           },
           "imports": [
@@ -176,29 +166,32 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.403/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/ericmiller/Projects/SkillStorm/Project 3/Project-3-Customer-API/CustomerTestAPI.Api/CustomerTestAPI.Domain/CustomerTestAPI.Domain.csproj": {
+    "C:\\Users\\Wyatt\\Source\\Repos\\Project-3-Customer-API2\\CustomerTestAPI.Domain\\CustomerTestAPI.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/ericmiller/Projects/SkillStorm/Project 3/Project-3-Customer-API/CustomerTestAPI.Api/CustomerTestAPI.Domain/CustomerTestAPI.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Wyatt\\Source\\Repos\\Project-3-Customer-API2\\CustomerTestAPI.Domain\\CustomerTestAPI.Domain.csproj",
         "projectName": "CustomerTestAPI.Domain",
-        "projectPath": "/Users/ericmiller/Projects/SkillStorm/Project 3/Project-3-Customer-API/CustomerTestAPI.Api/CustomerTestAPI.Domain/CustomerTestAPI.Domain.csproj",
-        "packagesPath": "/Users/ericmiller/.nuget/packages/",
-        "outputPath": "/Users/ericmiller/Projects/SkillStorm/Project 3/Project-3-Customer-API/CustomerTestAPI.Api/CustomerTestAPI.Domain/obj/",
+        "projectPath": "C:\\Users\\Wyatt\\Source\\Repos\\Project-3-Customer-API2\\CustomerTestAPI.Domain\\CustomerTestAPI.Domain.csproj",
+        "packagesPath": "C:\\Users\\Wyatt\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Wyatt\\Source\\Repos\\Project-3-Customer-API2\\CustomerTestAPI.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "/Users/ericmiller/.config/NuGet/NuGet.Config"
+          "C:\\Users\\Wyatt\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -216,14 +209,6 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "dependencies": {
-            "Microsoft.EntityFrameworkCore.Tools": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[5.0.10, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -239,7 +224,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.403/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

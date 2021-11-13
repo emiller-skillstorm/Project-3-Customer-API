@@ -1,59 +1,9 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
-
   <ItemGroup>
-    <ProjectReference Include="CustomerTestAPI.Data\CustomerTestAPI.Data.csproj">
-      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
-    </ProjectReference>
-    <ProjectReference Include="CustomerTestAPI.Domain\CustomerTestAPI.Domain.csproj">
-      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Remove="CustomerTestAPI.Data\CustomerContext.cs" />
-    <Compile Remove="CustomerTestAPI.Domain\Address.cs" />
-    <Compile Remove="CustomerTestAPI.Domain\Customer.cs" />
-    <Compile Remove="CustomerTestAPI.Domain\Coordinates.cs" />
-    <Compile Remove="CustomerTestAPI.Domain\obj\Debug\net5.0\.NETCoreApp,Version=v5.0.AssemblyAttributes.cs" />
-    <Compile Remove="CustomerTestAPI.Data\Program.cs" />
-    <Compile Remove="CustomerTestAPI.Data\obj\Debug\net5.0\.NETCoreApp,Version=v5.0.AssemblyAttributes.cs" />
-    <Compile Remove="CustomerTestAPI.Domain\obj\Debug\net5.0\CustomerTestAPI.Domain.AssemblyInfo.cs" />
-    <Compile Remove="CustomerTestAPI.Data\obj\Debug\net5.0\CustomerTestAPI.Data.AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Remove="CustomerTestAPI.Domain\bin\Debug\net5.0\CustomerTestAPI.Domain.deps.json" />
-    <Content Remove="CustomerTestAPI.Domain\obj\CustomerTestAPI.Domain.csproj.nuget.dgspec.json" />
-    <Content Remove="CustomerTestAPI.Domain\obj\project.assets.json" />
-    <Content Remove="CustomerTestAPI.Data\obj\CustomerTestAPI.Data.csproj.nuget.dgspec.json" />
-    <Content Remove="CustomerTestAPI.Data\obj\project.assets.json" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Remove="CustomerTestAPI.Domain\obj\CustomerTestAPI.Domain.csproj.nuget.g.targets" />
-    <None Remove="CustomerTestAPI.Domain\obj\project.nuget.cache" />
-    <None Remove="CustomerTestAPI.Domain\obj\CustomerTestAPI.Domain.csproj.nuget.g.props" />
-    <None Remove="CustomerTestAPI.Domain\obj\Debug\net5.0\CustomerTestAPI.Domain.assets.cache" />
-    <None Remove="CustomerTestAPI.Domain\obj\Debug\net5.0\CustomerTestAPI.Domain.csproj.FileListAbsolute.txt" />
-    <None Remove="CustomerTestAPI.Data\obj\CustomerTestAPI.Data.csproj.nuget.g.targets" />
-    <None Remove="CustomerTestAPI.Data\obj\project.nuget.cache" />
-    <None Remove="CustomerTestAPI.Data\obj\CustomerTestAPI.Data.csproj.nuget.g.props" />
-    <None Remove="CustomerTestAPI.Data\obj\Debug\net5.0\CustomerTestAPI.Data.assets.cache" />
-    <None Remove="CustomerTestAPI.Data\obj\Debug\net5.0\CustomerTestAPI.Data.csproj.FileListAbsolute.txt" />
-    <None Remove="CustomerTestAPI.Domain\obj\Debug\net5.0\CustomerTestAPI.Domain.GeneratedMSBuildEditorConfig.editorconfig" />
-    <None Remove="CustomerTestAPI.Domain\obj\Debug\net5.0\CustomerTestAPI.Domain.AssemblyInfoInputs.cache" />
-    <None Remove="CustomerTestAPI.Domain\obj\Debug\net5.0\CustomerTestAPI.Domain.csproj.CoreCompileInputs.cache" />
-    <None Remove="CustomerTestAPI.Domain\obj\Debug\net5.0\CustomerTestAPI.Domain.dll" />
-    <None Remove="CustomerTestAPI.Domain\obj\Debug\net5.0\ref\CustomerTestAPI.Domain.dll" />
-    <None Remove="CustomerTestAPI.Domain\obj\Debug\net5.0\CustomerTestAPI.Domain.pdb" />
-    <None Remove="CustomerTestAPI.Domain\bin\Debug\net5.0\CustomerTestAPI.Domain.dll" />
-    <None Remove="CustomerTestAPI.Domain\bin\Debug\net5.0\ref\CustomerTestAPI.Domain.dll" />
-    <None Remove="CustomerTestAPI.Domain\bin\Debug\net5.0\CustomerTestAPI.Domain.pdb" />
-    <None Remove="CustomerTestAPI.Data\obj\Debug\net5.0\CustomerTestAPI.Data.csproj.AssemblyReference.cache" />
-    <None Remove="CustomerTestAPI.Data\obj\Debug\net5.0\CustomerTestAPI.Data.GeneratedMSBuildEditorConfig.editorconfig" />
-    <None Remove="CustomerTestAPI.Data\obj\Debug\net5.0\CustomerTestAPI.Data.AssemblyInfoInputs.cache" />
-    <None Remove="CustomerTestAPI.Data\obj\Debug\net5.0\CustomerTestAPI.Data.csproj.CoreCompileInputs.cache" />
     <None Remove="Microsoft.EntityFrameworkCore.Relational" />
     <None Remove="Microsoft.EntityFrameworkCore.SqlServer" />
     <None Remove="Microsoft.EntityFrameworkCore.Design" />
@@ -63,15 +13,19 @@
     <None Remove="Microsoft.VisualStudio.Web.CodeGeneration.Utils" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="5.0.10" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.10" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="5.0.10">
-      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="5.0.12">
       <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Analyzers" Version="5.0.10" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.12" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.12">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="5.0.2" />
-    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore" Version="5.0.2" />
-    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Utils" Version="5.0.2" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CustomerTestAPI.Data\CustomerTestAPI.Data.csproj" />
+    <ProjectReference Include="..\CustomerTestAPI.Domain\CustomerTestAPI.Domain.csproj" />
   </ItemGroup>
 </Project>

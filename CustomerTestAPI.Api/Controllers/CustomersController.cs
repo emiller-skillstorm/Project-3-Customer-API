@@ -9,8 +9,6 @@ using Microsoft.EntityFrameworkCore;
 
 namespace CustomerTestAPI.Api.Controllers
 {
-    public class CustomerController : ControllerBase
-    {
         [Route("api/[controller]")]
         [ApiController]
         public class CustomersController : ControllerBase
@@ -44,10 +42,10 @@ namespace CustomerTestAPI.Api.Controllers
             }
 
             // GET: api/Customers/5
-            [HttpGet("phone/{id}")]
+            [HttpGet("phone/{phone}")]
             public async Task<ActionResult<Customer>> GetCustomerByPhone(string phone)
             {
-                var Customer = await _context.Customers.Where(c => c.Phone == phone).ToListAsync();
+                var Customer = await _context.Customers.Where(c => c.Phone == phone).Include(c => c.Address).ToListAsync();
 
                 if (Customer == null)
                 {
@@ -63,7 +61,7 @@ namespace CustomerTestAPI.Api.Controllers
             [HttpPut("{id}")]
             public async Task<IActionResult> PutCustomer(int id, Customer Customer)
             {
-                if (id != Customer.Customer_ID)
+                if (id != Customer.Id)
                 {
                     return BadRequest();
                 }
@@ -97,7 +95,7 @@ namespace CustomerTestAPI.Api.Controllers
                 _context.Customers.Add(Customer);
                 await _context.SaveChangesAsync();
 
-                return CreatedAtAction("GetCustomer", new { id = Customer.Customer_ID }, Customer);
+                return CreatedAtAction("GetCustomer", new { id = Customer.Id }, Customer);
             }
 
             // DELETE: api/Customers/5
@@ -118,8 +116,7 @@ namespace CustomerTestAPI.Api.Controllers
 
             private bool CustomerExists(int id)
             {
-                return _context.Customers.Any(e => e.Customer_ID == id);
+                return _context.Customers.Any(e => e.Id == id);
             }
         }
     }
-}

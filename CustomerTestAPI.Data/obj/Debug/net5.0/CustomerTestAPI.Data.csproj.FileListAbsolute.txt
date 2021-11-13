@@ -1,0 +1,15 @@
+C:\Users\Wyatt\Source\Repos\Project-3-Customer-API2\CustomerTestAPI.Data\bin\Debug\net5.0\CustomerTestAPI.Data.deps.json
+C:\Users\Wyatt\Source\Repos\Project-3-Customer-API2\CustomerTestAPI.Data\bin\Debug\net5.0\CustomerTestAPI.Data.dll
+C:\Users\Wyatt\Source\Repos\Project-3-Customer-API2\CustomerTestAPI.Data\bin\Debug\net5.0\ref\CustomerTestAPI.Data.dll
+C:\Users\Wyatt\Source\Repos\Project-3-Customer-API2\CustomerTestAPI.Data\bin\Debug\net5.0\CustomerTestAPI.Data.pdb
+C:\Users\Wyatt\Source\Repos\Project-3-Customer-API2\CustomerTestAPI.Data\bin\Debug\net5.0\CustomerTestAPI.Domain.dll
+C:\Users\Wyatt\Source\Repos\Project-3-Customer-API2\CustomerTestAPI.Data\bin\Debug\net5.0\CustomerTestAPI.Domain.pdb
+C:\Users\Wyatt\Source\Repos\Project-3-Customer-API2\CustomerTestAPI.Data\obj\Debug\net5.0\CustomerTestAPI.Data.csproj.AssemblyReference.cache
+C:\Users\Wyatt\Source\Repos\Project-3-Customer-API2\CustomerTestAPI.Data\obj\Debug\net5.0\CustomerTestAPI.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Wyatt\Source\Repos\Project-3-Customer-API2\CustomerTestAPI.Data\obj\Debug\net5.0\CustomerTestAPI.Data.AssemblyInfoInputs.cache
+C:\Users\Wyatt\Source\Repos\Project-3-Customer-API2\CustomerTestAPI.Data\obj\Debug\net5.0\CustomerTestAPI.Data.AssemblyInfo.cs
+C:\Users\Wyatt\Source\Repos\Project-3-Customer-API2\CustomerTestAPI.Data\obj\Debug\net5.0\CustomerTestAPI.Data.csproj.CoreCompileInputs.cache
+C:\Users\Wyatt\Source\Repos\Project-3-Customer-API2\CustomerTestAPI.Data\obj\Debug\net5.0\CustomerTestAPI.Data.csproj.CopyComplete
+C:\Users\Wyatt\Source\Repos\Project-3-Customer-API2\CustomerTestAPI.Data\obj\Debug\net5.0\CustomerTestAPI.Data.dll
+C:\Users\Wyatt\Source\Repos\Project-3-Customer-API2\CustomerTestAPI.Data\obj\Debug\net5.0\ref\CustomerTestAPI.Data.dll
+C:\Users\Wyatt\Source\Repos\Project-3-Customer-API2\CustomerTestAPI.Data\obj\Debug\net5.0\CustomerTestAPI.Data.pdb

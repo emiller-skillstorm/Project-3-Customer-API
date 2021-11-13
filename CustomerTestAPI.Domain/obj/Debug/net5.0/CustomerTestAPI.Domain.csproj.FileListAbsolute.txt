@@ -1,0 +1,12 @@
+C:\Users\Wyatt\Source\Repos\Project-3-Customer-API2\CustomerTestAPI.Domain\bin\Debug\net5.0\CustomerTestAPI.Domain.deps.json
+C:\Users\Wyatt\Source\Repos\Project-3-Customer-API2\CustomerTestAPI.Domain\bin\Debug\net5.0\CustomerTestAPI.Domain.dll
+C:\Users\Wyatt\Source\Repos\Project-3-Customer-API2\CustomerTestAPI.Domain\bin\Debug\net5.0\ref\CustomerTestAPI.Domain.dll
+C:\Users\Wyatt\Source\Repos\Project-3-Customer-API2\CustomerTestAPI.Domain\bin\Debug\net5.0\CustomerTestAPI.Domain.pdb
+C:\Users\Wyatt\Source\Repos\Project-3-Customer-API2\CustomerTestAPI.Domain\obj\Debug\net5.0\CustomerTestAPI.Domain.csproj.AssemblyReference.cache
+C:\Users\Wyatt\Source\Repos\Project-3-Customer-API2\CustomerTestAPI.Domain\obj\Debug\net5.0\CustomerTestAPI.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Wyatt\Source\Repos\Project-3-Customer-API2\CustomerTestAPI.Domain\obj\Debug\net5.0\CustomerTestAPI.Domain.AssemblyInfoInputs.cache
+C:\Users\Wyatt\Source\Repos\Project-3-Customer-API2\CustomerTestAPI.Domain\obj\Debug\net5.0\CustomerTestAPI.Domain.AssemblyInfo.cs
+C:\Users\Wyatt\Source\Repos\Project-3-Customer-API2\CustomerTestAPI.Domain\obj\Debug\net5.0\CustomerTestAPI.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Wyatt\Source\Repos\Project-3-Customer-API2\CustomerTestAPI.Domain\obj\Debug\net5.0\CustomerTestAPI.Domain.dll
+C:\Users\Wyatt\Source\Repos\Project-3-Customer-API2\CustomerTestAPI.Domain\obj\Debug\net5.0\ref\CustomerTestAPI.Domain.dll
+C:\Users\Wyatt\Source\Repos\Project-3-Customer-API2\CustomerTestAPI.Domain\obj\Debug\net5.0\CustomerTestAPI.Domain.pdb
