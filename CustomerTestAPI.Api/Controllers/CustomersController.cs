@@ -66,9 +66,14 @@ namespace CustomerTestAPI.Api.Controllers
                 {
                     return BadRequest();
                 }
+                var Address = Customer.Address;
+                if(Address == null)
+                {
+                    return BadRequest();
+                }
 
                 _context.Entry(Customer).State = EntityState.Modified;
-
+                _context.Entry(Address).State = EntityState.Modified;
                 try
                 {
                     await _context.SaveChangesAsync();
@@ -85,7 +90,7 @@ namespace CustomerTestAPI.Api.Controllers
                     }
                 }
 
-                return NoContent();
+            return NoContent();
             }
 
             // POST: api/Customers
